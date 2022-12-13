@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cashmer_Cosmetics_we_site by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-log(failed)">
+    <groups>
+      <run>
+        <include name="log"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="registration_process">
+        <methods>
+          <include name="open_main_page"/>
+          <include name="login_process"/>
+        </methods>
+      </class> <!-- registration_process -->
+    </classes>
+  </test> <!-- GRP-log(failed) -->
+</suite> <!-- Failed suite [Cashmer_Cosmetics_we_site by groups] -->

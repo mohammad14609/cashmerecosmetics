@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-13T22:56:58 EET" name="Cashmer_Cosmetics_we_site by groups" finished-at="2022-12-13T22:57:16 EET" duration-ms="17982">
+    <groups>
+      <group name="log">
+        <method signature="registration_process.login_process()[pri:0, instance:registration_process@27462a88]" name="login_process" class="registration_process"/>
+      </group> <!-- log -->
+    </groups>
+    <test started-at="2022-12-13T22:56:58 EET" name="GRP-log" finished-at="2022-12-13T22:57:16 EET" duration-ms="17982">
+      <class name="registration_process">
+        <test-method is-config="true" signature="open_main_page()[pri:0, instance:registration_process@27462a88]" started-at="2022-12-13T22:56:58 EET" name="open_main_page" finished-at="2022-12-13T22:57:09 EET" duration-ms="11090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_main_page -->
+        <test-method signature="login_process()[pri:0, instance:registration_process@27462a88]" started-at="2022-12-13T22:57:09 EET" name="login_process" finished-at="2022-12-13T22:57:16 EET" duration-ms="6849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_process -->
+      </class> <!-- registration_process -->
+    </test> <!-- GRP-log -->
+  </suite> <!-- Cashmer_Cosmetics_we_site by groups -->
+</testng-results>
